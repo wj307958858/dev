@@ -1,0 +1,39 @@
+@import '../styles/colors.scss';
+
+::ng-deep body {
+    font-size: 14px !important;
+}
+
+::ng-deep .modal-dialog {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    margin: auto !important;
+}
+
+::ng-deep .modal-lg {
+    max-width: 900px;
+}
+
+::ng-deep .modal-md {
+    max-width: 700px;
+}
+
+::ng-deep .modal-sm {
+    max-width: 300px;
+}
+
+::ng-deep .datatable-row-center {
+    cursor: pointer;
+}
+
+::ng-deep ngb-datepicker-navigation  button.btn-link {
+    border-color: transparent !important;
+}
+
+::ng-deep button {
+    cursor: pointer;
+}
+
+::ng-deep .btn {
+    cursor: pointer;
+}
