@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Validators } from '@angular/forms';
-import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-loan-booking',
@@ -10,7 +8,7 @@ import { FormBuilder } from '@angular/forms';
 /* 货款预定组件 */
 export class LoanBookingComponent implements OnInit {
 
-  constructor(private fb: FormBuilder) { }
+  constructor() { }
 
   ngOnInit() {
   }

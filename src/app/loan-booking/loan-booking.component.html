@@ -1,27 +1,181 @@
-<div class="row">
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="exampleInputName2">Booking Type </label>
-            <select type="text" class="form-control">
+<div>
+    <div class="row">
+        <div class="col-md-3">
+            <label for="exampleInputName2">*Booking Type </label>
+            <select type="text" class="col-xs-2">
                 <option>Walk In</option>
                 <option>By Phone</option>
                 <option>By Mail</option>
                 <option>By Web</option>
             </select>
         </div>
+        <div class="col-md-3">
+            <label for="exampleInputName2">*ID Type </label>
+            <select type="text" class="col-xs-2">
+                <option>HKID</option>
+                <option>Macau</option>
+                <option>Filipino</option>
+                <option>Indonesian</option>
+                <option>China</option>
+                <option>BRC#</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            ID#
+            <input type="text" class="col-xs-4">
+
+        </div>
+        <div class="col-md-2">
+            Brand-New
+            <select type="text" class="col-xs-2">
+                <option>Y</option>
+                <option>Q</option>
+            </select>
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-default" type="submit">PRINT</button>
+        </div>
     </div>
-    <div class="col-md-3">.col-md-3</div>
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-2">.col-md-2</div>
+
+    <div class="row">
+        <div class="col-md-3">
+            Booking#
+            <input type="text" class="col-xs-3" disabled>
+        </div>
+        <div class="col-md-3">
+            *Surname
+            <input type="text" class="col-xs-3">
+        </div>
+        <div class="col-md-5">
+            Given Name
+            <input type="text" class="col-xs-6">
+        </div>
+
+        <div class="col-md-1">
+            <button class="btn btn-default" type="submit">CIE</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            NickName
+            <input type="text" class="col-xs-3">
+        </div>
+        <div class="col-md-6">
+            Phone#
+            <input type="text" class="col-xs-3">
+            姓<input type="text" class="col-xs-1">
+            名<input type="text" class="col-xs-3">
+        </div>
+    </div>
 </div>
-<div class="row">
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-8">.col-md-8</div>
-</div>
+<br />
+<div id="blank-line"></div>
+<br />
 <div>
     <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-8">.col-md-8</div>
+
+        <div class="col-md-6">
+            <div>
+                Src Unit
+                <input type="text" class="col-xs-3">
+            </div>
+            <div>
+                Create By
+                <input type="text" class="col-xs-2">
+                Create Date
+                <input type="text" class="col-xs-4">
+            </div>
+            <div>
+                Update By
+                <input type="text" class="col-xs-2">
+                Update Date
+                <input type="text" class="col-xs-4">
+            </div>
+
+
+        </div>
+        <div class="col-md-6">
+            Remark<textarea class="form-control" rows="2"></textarea>
+        </div>
     </div>
-    <div></div>
+</div>
+<br />
+<div id="blank-line"></div>
+<br />
+<div>
+    <div class="row">
+        <div class="col-md-6">
+            <div>
+                Assign to <input type="text" class="col-xs-1">
+                Br Desc<input type="text" class="col-xs-2">
+            </div>
+            <div>
+                Assign Date<input type="text" />
+            </div>
+            <div>
+                Follow By <input type="text" class="col-xs-3">
+                Follow Date<input type="text" class="col-xs-2">
+            </div>
+            <div>
+                Disbursed Loan Code
+                <input type="text">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div>
+                Remark<textarea class="form-control" rows="3"></textarea>
+            </div>
+            <div>
+                <label for="exampleInputName2">Status</label>
+                <select type="text" class="col-xs-3">
+                    <option></option>
+                    <option>ACCEPT</option>
+                    <option>PENDING</option>
+                    <option>REJECT</option>
+                    <option>DISBURSED</option>
+                    <option>RENEWED</option>
+                </select>
+                Status Description
+                <select type="text">
+
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div>
+                <label for="exampleInputName2">Disbursed Amt.</label>
+                <input type="text" class="col-xs-3">
+            </div>
+            <div>
+                <label for="exampleInputName2">Media</label>
+                <input type="text" class="col-xs-3">
+            </div>
+            <div>
+                <label for="exampleInputName2">Format</label>
+                <input type="text" class="col-xs-3">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <label for="exampleInputName2">Loan Status</label>
+                <input type="text" class="col-xs-3">
+            </div>
+            <div>
+                <label for="exampleInputName2">Source</label>
+                <input type="text" class="col-xs-3">
+            </div>
+            <div>
+                <label for="exampleInputName2">Banner ID</label>
+                <input type="text" class="col-xs-3">
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div>
+                <label for="exampleInputName2">Campaign</label>
+                <input type="text" class="col-xs-3">
+            </div>
+        </div>
+    </div>
 </div>
